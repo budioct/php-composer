@@ -1,0 +1,30 @@
+Repository
+● Repository merupakan tempat semua dependency di simpan
+● Secara default, composer menggunakan repository Packagist
+● https://packagist.org/
+● Kita juga bisa menambahkan repository selain packagist jika mau :
+  https://getcomposer.org/doc/05-repositories.md
+
+Menambah Dependency
+● Salah satu keuntungan menggunakan Composer adalah, kita bisa dengan mudah menambahkan
+  dependency library yang kita butuhkan
+● Terdapat dua jenis library di composer, library yang digunakan ketika development, dan library
+  yang digunakan ketika aplikasi berjalan
+● Contoh library yang digunakan ketika development adalah unit test misalnya
+● Untuk menambah library, kita bisa tambahkan di composer dengan attribute require (untuk library
+  aplikasi), dan require-dev (untuk library development)
+
+Versi Library (penulisan versi rilis) - mengikuti semantic versioning
+● Saat menambahkan library, kita perlu menentukan versi berapa yang akan kita gunakan
+● Ada beberapa cara menggunakan versi library di composer, semuanya tertulis di halaman resmi
+composer : https://getcomposer.org/doc/articles/versions.md
+● Version di Composer mengikuti Semantic Versioning https://semver.org/
+
+di file composer.json
+"require": {
+        "monolog/monolog" : "2.2.0"
+    }
+
+Jangan Lupa
+● Setelah menambah library, biasakan melakukan update : composer update
+● Dan melakukan generate autoload : composer dump-autoload
