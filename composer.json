@@ -15,5 +15,9 @@
     ],
     "require": {
         "monolog/monolog" : "2.2.0"
+    },
+    "scripts": {
+        "jalankan-server" : "php -S localhost:8080",
+        "hello" : "echo Hello World!"
     }
 }

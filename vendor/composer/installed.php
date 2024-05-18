@@ -3,7 +3,7 @@
         'name' => 'anakommamat/php-composer',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '1873d1f3d5ed6b3af250b54fcc46583a805d2280',
+        'reference' => '8c7fcbd37e25db115338a874de9221e5bda6724d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'anakommamat/php-composer' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '1873d1f3d5ed6b3af250b54fcc46583a805d2280',
+            'reference' => '8c7fcbd37e25db115338a874de9221e5bda6724d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

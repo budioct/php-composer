@@ -28,3 +28,24 @@ di file composer.json
 Jangan Lupa
 ● Setelah menambah library, biasakan melakukan update : composer update
 ● Dan melakukan generate autoload : composer dump-autoload
+
+
+=======================================================================================
+Script
+● Fitur ini bisa digunakan untuk membuat custom script
+● Dengan custom script ini, kita bisa menggunakan composer untuk membuat perintah misal :
+  composer script-saya.
+
+  di file: composer.json
+  "scripts": {
+          "jalankan-server" : "php -S localhost:8080",
+          "hello" : "echo Hello World!"
+      }
+
+  composer hello
+  > echo Hello World!
+  Hello World
+
+  composer jalankan-server
+  > php -S localhost:8080
+  [Sat May 18 10:48:22 2024] PHP 8.1.25 Development Server (http://localhost:8080) started
