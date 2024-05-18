@@ -1,0 +1,17 @@
+{
+    "name": "anakommamat/php-composer",
+    "description": "PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AnakOmMamat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Budhi Octaviansyah",
+            "email": "budioct@gmail.com"
+        }
+    ],
+    "require": {}
+}
